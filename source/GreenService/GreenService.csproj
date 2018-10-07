@@ -1,12 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
     <ProjectReference Include="..\BaseHost\BaseHost.csproj" />
+    <ProjectReference Include="..\Blue.Contracts\Blue.Contracts.csproj" />
+    <ProjectReference Include="..\Green.Contracts\Green.Contracts.csproj" />
+    <ProjectReference Include="..\Publisher.Contracts\Publisher.Contracts.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
 </Project>

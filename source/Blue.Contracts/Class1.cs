@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BaseHost
+namespace Blue.Contracts
 {
     public class Class1
     {

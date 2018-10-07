@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  publisher:
+    image: ${DOCKER_REGISTRY}publisher
+    build:
+      context: .
+      dockerfile: source/Publisher/Dockerfile
+
+  green:
+    image: ${DOCKER_REGISTRY}green
+    build:
+      context: .
+      dockerfile: source/Publisher/Dockerfile
